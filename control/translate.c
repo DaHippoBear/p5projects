@@ -1,19 +1,18 @@
 #include <stdio.h>
 #include <string.h>
-#include "control.h"
 char* pigLatin (char word[] );
 char* shrthnd (char word[] );
 char charArray[];
 char piglatin[80];
-char shorty[80];
+char shorthand[80];
 void clearBuffer(char word[]);
 void clearPigBuffer();
-char* translatepig(char *input)
+char* translateshort()
 {
    
   //char *input[10000];
   // char *outputpig[10000];
-   //char input[] = "I like to read books";
+   char input[] = "I like to read books";
    long string_size = strlen(input);
    char splitChar[] = " ";
    char *pointy = strtok(input, splitChar);
@@ -21,50 +20,50 @@ char* translatepig(char *input)
    while(pointy != NULL) {
     //printf("'%s'\n", pointy);
      // strcpy(tokendWord, pointy);
-     printf("%s ", pigLatin(pointy));
+//     printf("%s ", shrthnd(pointy));
      clearBuffer(pointy);
      //clearPigBuffer();
     pointy = strtok(NULL, splitChar);
    }
    
    
-//  printf("\n\n\n\n\n\n");
+ // printf("\n\n\n\n\n\n");
    
    
    for (int i = 0; i < string_size; i++) {
     // printf("%d ", bruh[i]);
    }
-   return piglatin;
+   return shorthand;
 }
-char* translateshort(char *input)
-{
-   
-  //char *input[10000];
-  // char *outputpig[10000];
-   //char input[] = "I like to read books";
-   long string_size = strlen(input);
-   char splitChar[] = " ";
-   char *pointy = strtok(input, splitChar);
-  
-   while(pointy != NULL) {
-    //printf("'%s'\n", pointy);
-     // strcpy(tokendWord, pointy);
-     printf("%s ", shrthnd(pointy));
-     clearBuffer(pointy);
-     //clearPigBuffer();
-    pointy = strtok(NULL, splitChar);
+
+   char* translatepig(char* piglatin)
+   {
+      
+     //char *input[10000];
+     // char *outputpig[10000];
+      char input[] = "I like to read books";
+      long string_size = strlen(input);
+      char splitChar[] = " ";
+      char *pointy = strtok(input, splitChar);
+     
+      while(pointy != NULL) {
+       //printf("'%s'\n", pointy);
+        // strcpy(tokendWord, pointy);
+        printf("%s ", pigLatin(pointy));
+        clearBuffer(pointy);
+        //clearPigBuffer();
+       pointy = strtok(NULL, splitChar);
+      }
+      
+      
+    // printf("\n\n\n\n\n\n");
+      
+      
+      for (int i = 0; i < string_size; i++) {
+       // printf("%d ", bruh[i]);
+      }
+      return 0;
    }
-   
-   
-//  printf("\n\n\n\n\n\n");
-   
-   
-   for (int i = 0; i < string_size; i++) {
-    // printf("%d ", bruh[i]);
-   }
-   return piglatin;
-}
-   
    
 char* shrthnd(char word[]){
    
@@ -127,8 +126,7 @@ void clearBuffer(char word[]){
   charArray[i]= '\0';
  }
  }
-void clearPigBuffer(){
+/*void clearPigBuffer(){
 for(int i=0; i<80; i++){
  piglatin[i]= '\0';
- }
-}
+}*/
