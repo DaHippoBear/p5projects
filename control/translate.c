@@ -2,11 +2,11 @@
 #include <string.h>
 char* piglatin (char word[] );
 char* shrthnd (char word[] );
-char array[];
+char array[100];
 char pigLatin[100];
 char shorthand[100];
-void clearBuffer(char word[]);
-void clearPigBuffer();
+//void clearBuffer(char word[]);
+void clearPigBuffer(char word[]);
 char* shorty()
 {
    
@@ -21,7 +21,7 @@ char* shorty()
     //printf("'%s'\n", pointy);
      // strcpy(tokendWord, pointy);
 //     printf("%s ", shrthnd(pointy));
-     clearBuffer(pointy);
+     //clearBuffer(pointy);
      //clearPigBuffer();
     pointy = strtok(NULL, split);
    }
@@ -50,8 +50,8 @@ char* shorty()
        //printf("'%s'\n", pointy);
         // strcpy(tokendWord, pointy);
       //  printf("%s ", piglatin(pointy));
-        clearBuffer(pointy);
-        //clearPigBuffer();
+        //clearBuffer(pointy);
+       // clearPigBuffer(pointy);
        pointy = strtok(NULL, split);
       }
       
@@ -121,7 +121,7 @@ char* piglatin (char word[] ){
    
   return piglatin;
 }
-void clearbuffer(char word[]){
+/*void clearbuffer(char word[]){
  for(int i=0; i<strlen(word); i++){
   array[i]= '\0';
  }
