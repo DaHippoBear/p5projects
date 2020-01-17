@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <string.h>
-char* pigLatin (char word[] );
+char* piglatin (char word[] );
 char* shrthnd (char word[] );
-char charArray[];
-char piglatin[80];
-char shorthand[80];
+char array[];
+char pigLatin[100];
+char shorthand[100];
 void clearBuffer(char word[]);
 void clearPigBuffer();
-char* translateshort()
+char* shorty()
 {
    
   //char *input[10000];
   // char *outputpig[10000];
    char input[] = "I like to read books";
    long string_size = strlen(input);
-   char splitChar[] = " ";
-   char *pointy = strtok(input, splitChar);
+   char split[] = " ";
+   char *pointy = strtok(input, split);
   
    while(pointy != NULL) {
     //printf("'%s'\n", pointy);
@@ -23,7 +23,7 @@ char* translateshort()
 //     printf("%s ", shrthnd(pointy));
      clearBuffer(pointy);
      //clearPigBuffer();
-    pointy = strtok(NULL, splitChar);
+    pointy = strtok(NULL, split);
    }
    
    
@@ -36,23 +36,23 @@ char* translateshort()
    return shorthand;
 }
 
-   char* translatepig(char* piglatin)
+   char* pig(char* piglatin)
    {
       
      //char *input[10000];
      // char *outputpig[10000];
       char input[] = "I like to read books";
       long string_size = strlen(input);
-      char splitChar[] = " ";
-      char *pointy = strtok(input, splitChar);
+      char split[] = " ";
+      char *pointy = strtok(input, split);
      
       while(pointy != NULL) {
        //printf("'%s'\n", pointy);
         // strcpy(tokendWord, pointy);
-        printf("%s ", pigLatin(pointy));
+      //  printf("%s ", piglatin(pointy));
         clearBuffer(pointy);
         //clearPigBuffer();
-       pointy = strtok(NULL, splitChar);
+       pointy = strtok(NULL, split);
       }
       
       
@@ -97,7 +97,7 @@ char* shrthnd(char word[]){
 }
    
    
-char* pigLatin (char word[] ){
+char* piglatin (char word[] ){
   
   int buffer = 0, place = 0, start= 0;
   
@@ -108,22 +108,22 @@ char* pigLatin (char word[] ){
       buffer++;
     }
     for (; start < buffer - 1 ; start++ , place++) {
-      piglatin[place] = word[start +1];
+      pigLatin[place] = word[start +1];
     }
-    piglatin[place] = temp;
-    piglatin[place+1] = 'a';
-    piglatin[place+2] = 'y';
+    pigLatin[place] = temp;
+    pigLatin[place+1] = 'a';
+    pigLatin[place+2] = 'y';
      
     place += 4;
     start = buffer + 1;
   }
-  piglatin[place] = '\0';
+  pigLatin[place] = '\0';
    
   return piglatin;
 }
-void clearBuffer(char word[]){
+void clearbuffer(char word[]){
  for(int i=0; i<strlen(word); i++){
-  charArray[i]= '\0';
+  array[i]= '\0';
  }
  }
 /*void clearPigBuffer(){

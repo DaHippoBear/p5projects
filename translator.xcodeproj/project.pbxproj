@@ -17,6 +17,8 @@
 		D765414D23CE8288008BD5D9 /* translatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D765414C23CE8288008BD5D9 /* translatorTests.m */; };
 		D765415823CE8289008BD5D9 /* translatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D765415723CE8289008BD5D9 /* translatorUITests.m */; };
 		D765416A23CE82D0008BD5D9 /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = D765416923CE82D0008BD5D9 /* translate.c */; };
+		D77534F923D272510024C678 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = D77534F823D272510024C678 /* brick.png */; };
+		D77534FB23D27A760024C678 /* golfwangl2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77534FA23D27A760024C678 /* golfwangl2.storyboard */; };
 		D7B6766423CFC3B1005A1B1E /* golfwang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B6766323CFC3B1005A1B1E /* golfwang.storyboard */; };
 		D7B6766623CFC436005A1B1E /* golfwang.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6766523CFC436005A1B1E /* golfwang.m */; };
 		D7B6766A23CFC466005A1B1E /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B6766923CFC466005A1B1E /* golfball.png */; };
@@ -60,6 +62,8 @@
 		D765415923CE8289008BD5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D765416723CE82C3008BD5D9 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		D765416923CE82D0008BD5D9 /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
+		D77534F823D272510024C678 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brick.png; path = ../../../../Downloads/brick.png; sourceTree = "<group>"; };
+		D77534FA23D27A760024C678 /* golfwangl2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwangl2.storyboard; sourceTree = "<group>"; };
 		D7B6766323CFC3B1005A1B1E /* golfwang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang.storyboard; sourceTree = "<group>"; };
 		D7B6766523CFC436005A1B1E /* golfwang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfwang.m; sourceTree = "<group>"; };
 		D7B6766723CFC440005A1B1E /* golfwang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfwang.h; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				D765413923CE8287008BD5D9 /* Main.storyboard */,
+				D77534FA23D27A760024C678 /* golfwangl2.storyboard */,
 				D7B6766323CFC3B1005A1B1E /* golfwang.storyboard */,
 				D765413E23CE8288008BD5D9 /* LaunchScreen.storyboard */,
 			);
@@ -172,6 +177,7 @@
 		D7B6766823CFC44B005A1B1E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D77534F823D272510024C678 /* brick.png */,
 				D7B6766923CFC466005A1B1E /* golfball.png */,
 			);
 			path = images;
@@ -284,7 +290,9 @@
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
 				D7B6766A23CFC466005A1B1E /* golfball.png in Resources */,
+				D77534FB23D27A760024C678 /* golfwangl2.storyboard in Resources */,
 				D7B6766423CFC3B1005A1B1E /* golfwang.storyboard in Resources */,
+				D77534F923D272510024C678 /* brick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
