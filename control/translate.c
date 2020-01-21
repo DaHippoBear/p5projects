@@ -12,7 +12,7 @@ char* shorty()
    
   //char *input[10000];
   // char *outputpig[10000];
-   char input[] = "I like to read books";
+   char input[] = "Yes boi bruh";
    long string_size = strlen(input);
    char split[] = " ";
    char *pointy = strtok(input, split);
