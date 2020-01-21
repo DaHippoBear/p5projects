@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413123CE8287008BD5D9 /* AppDelegate.m */; };
 		D765413523CE8287008BD5D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413423CE8287008BD5D9 /* SceneDelegate.m */; };
-		D765413823CE8287008BD5D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413723CE8287008BD5D9 /* ViewController.m */; };
+		D765413823CE8287008BD5D9 /* translate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413723CE8287008BD5D9 /* translate.m */; };
 		D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D765413923CE8287008BD5D9 /* Main.storyboard */; };
 		D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D765413C23CE8288008BD5D9 /* Assets.xcassets */; };
 		D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D765413E23CE8288008BD5D9 /* LaunchScreen.storyboard */; };
@@ -17,11 +17,12 @@
 		D765414D23CE8288008BD5D9 /* translatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D765414C23CE8288008BD5D9 /* translatorTests.m */; };
 		D765415823CE8289008BD5D9 /* translatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D765415723CE8289008BD5D9 /* translatorUITests.m */; };
 		D765416A23CE82D0008BD5D9 /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = D765416923CE82D0008BD5D9 /* translate.c */; };
-		D77534F923D272510024C678 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = D77534F823D272510024C678 /* brick.png */; };
-		D77534FB23D27A760024C678 /* golfwangl2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77534FA23D27A760024C678 /* golfwangl2.storyboard */; };
+		D77534FB23D27A760024C678 /* translate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77534FA23D27A760024C678 /* translate.storyboard */; };
+		D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
+		D77FB2F023D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
+		D77FB2F123D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D7B6766423CFC3B1005A1B1E /* golfwang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B6766323CFC3B1005A1B1E /* golfwang.storyboard */; };
 		D7B6766623CFC436005A1B1E /* golfwang.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6766523CFC436005A1B1E /* golfwang.m */; };
-		D7B6766A23CFC466005A1B1E /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B6766923CFC466005A1B1E /* golfball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,8 @@
 		D765413123CE8287008BD5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D765413323CE8287008BD5D9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		D765413423CE8287008BD5D9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D765413623CE8287008BD5D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D765413723CE8287008BD5D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D765413623CE8287008BD5D9 /* translate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = translate.h; sourceTree = "<group>"; };
+		D765413723CE8287008BD5D9 /* translate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = translate.m; sourceTree = "<group>"; };
 		D765413A23CE8287008BD5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D765413C23CE8288008BD5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D765413F23CE8288008BD5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,12 +63,11 @@
 		D765415923CE8289008BD5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D765416723CE82C3008BD5D9 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		D765416923CE82D0008BD5D9 /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
-		D77534F823D272510024C678 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brick.png; path = ../../../../Downloads/brick.png; sourceTree = "<group>"; };
-		D77534FA23D27A760024C678 /* golfwangl2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwangl2.storyboard; sourceTree = "<group>"; };
+		D77534FA23D27A760024C678 /* translate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = translate.storyboard; sourceTree = "<group>"; };
+		D77FB2F223D7BE0A0088B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/golfball.png; sourceTree = "<group>"; };
 		D7B6766323CFC3B1005A1B1E /* golfwang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang.storyboard; sourceTree = "<group>"; };
 		D7B6766523CFC436005A1B1E /* golfwang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfwang.m; sourceTree = "<group>"; };
 		D7B6766723CFC440005A1B1E /* golfwang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfwang.h; sourceTree = "<group>"; };
-		D7B6766923CFC466005A1B1E /* golfball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golfball.png; path = ../../../../Downloads/golfball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +125,10 @@
 				D765413123CE8287008BD5D9 /* AppDelegate.m */,
 				D765413323CE8287008BD5D9 /* SceneDelegate.h */,
 				D765413423CE8287008BD5D9 /* SceneDelegate.m */,
-				D765413623CE8287008BD5D9 /* ViewController.h */,
 				D7B6766523CFC436005A1B1E /* golfwang.m */,
 				D7B6766723CFC440005A1B1E /* golfwang.h */,
-				D765413723CE8287008BD5D9 /* ViewController.m */,
+				D765413623CE8287008BD5D9 /* translate.h */,
+				D765413723CE8287008BD5D9 /* translate.m */,
 				D765413C23CE8288008BD5D9 /* Assets.xcassets */,
 				D765414123CE8288008BD5D9 /* Info.plist */,
 				D765414223CE8288008BD5D9 /* main.m */,
@@ -167,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				D765413923CE8287008BD5D9 /* Main.storyboard */,
-				D77534FA23D27A760024C678 /* golfwangl2.storyboard */,
+				D77534FA23D27A760024C678 /* translate.storyboard */,
 				D7B6766323CFC3B1005A1B1E /* golfwang.storyboard */,
 				D765413E23CE8288008BD5D9 /* LaunchScreen.storyboard */,
 			);
@@ -177,8 +177,7 @@
 		D7B6766823CFC44B005A1B1E /* images */ = {
 			isa = PBXGroup;
 			children = (
-				D77534F823D272510024C678 /* brick.png */,
-				D7B6766923CFC466005A1B1E /* golfball.png */,
+				D77FB2F323D7BE0A0088B56B /* golfball.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -289,10 +288,9 @@
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
-				D7B6766A23CFC466005A1B1E /* golfball.png in Resources */,
-				D77534FB23D27A760024C678 /* golfwangl2.storyboard in Resources */,
+				D77534FB23D27A760024C678 /* translate.storyboard in Resources */,
+				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,
 				D7B6766423CFC3B1005A1B1E /* golfwang.storyboard in Resources */,
-				D77534F923D272510024C678 /* brick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77FB2F023D7BE0A0088B56B /* golfball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77FB2F123D7BE0A0088B56B /* golfball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765416A23CE82D0008BD5D9 /* translate.c in Sources */,
-				D765413823CE8287008BD5D9 /* ViewController.m in Sources */,
+				D765413823CE8287008BD5D9 /* translate.m in Sources */,
 				D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */,
 				D765414323CE8288008BD5D9 /* main.m in Sources */,
 				D7B6766623CFC436005A1B1E /* golfwang.m in Sources */,
@@ -372,6 +372,14 @@
 				D765413F23CE8288008BD5D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D77FB2F323D7BE0A0088B56B /* golfball.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77FB2F223D7BE0A0088B56B /* Base */,
+			);
+			name = golfball.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

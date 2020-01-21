@@ -7,12 +7,12 @@ char pigLatin[100];
 char shorthand[100];
 //void clearBuffer(char word[]);
 void clearPigBuffer(char word[]);
-char* shorty()
+char* shorty(char* input)
 {
    
   //char *input[10000];
   // char *outputpig[10000];
-   char input[] = "Yes boi bruh";
+   //char input[] = "Yes boi bruh";
    long string_size = strlen(input);
    char split[] = " ";
    char *pointy = strtok(input, split);
@@ -36,12 +36,12 @@ char* shorty()
    return shorthand;
 }
 
-   char* pig(char* piglatin)
+   char* pig(char* input)
    {
       
      //char *input[10000];
      // char *outputpig[10000];
-      char input[] = "I like to read books";
+     
       long string_size = strlen(input);
       char split[] = " ";
       char *pointy = strtok(input, split);
@@ -62,7 +62,7 @@ char* shorty()
       for (int i = 0; i < string_size; i++) {
        // printf("%d ", bruh[i]);
       }
-      return 0;
+      return pigLatin;
    }
    
 char* shrthnd(char word[]){

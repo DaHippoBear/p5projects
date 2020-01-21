@@ -26,13 +26,17 @@
                                     <segue destination="de2-Wh-uFV" kind="show" id="FN1-9V-Mmi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovv-Rn-Qrb">
-                                <rect key="frame" x="150" y="254" width="115" height="86"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15k-wa-zcQ">
+                                <rect key="frame" x="151" y="260" width="114" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="L2">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Translate">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="uCh-wH-Uut" kind="show" id="9SR-ic-vZX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
@@ -42,7 +46,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="161" y="133"/>
+            <point key="canvasLocation" x="160.86956521739131" y="132.58928571428572"/>
+        </scene>
+        <!--translate-->
+        <scene sceneID="h6J-of-fwv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="translate" id="uCh-wH-Uut" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jG3-t5-9eC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3SL-FA-WDE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="660" y="196"/>
         </scene>
         <!--golfwang-->
         <scene sceneID="CNo-pq-RBm">
