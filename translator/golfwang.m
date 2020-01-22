@@ -61,6 +61,10 @@ NSLog(@"touches Ended");
 
         self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
        }
+    if (CGRectIntersectsRect(self.ball.frame, self.wall3.frame)) {
+
+          self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+         }
 }
 
 
