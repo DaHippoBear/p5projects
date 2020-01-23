@@ -65,6 +65,20 @@ NSLog(@"touches Ended");
 
           self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
          }
+    if (CGRectIntersectsRect(self.ball.frame, self.portal1.frame)) {
+     self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
+        self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+     
+        
+        
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.portal1.frame)) {
+     self.ball.center = CGPointMake(self.portal1.center.x, self.portal1.center.y);
+        self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+     
+        
+        
+    }
 }
 
 

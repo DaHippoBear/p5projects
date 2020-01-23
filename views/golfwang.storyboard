@@ -42,6 +42,21 @@
                                 <state key="normal" title="L2">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vOd-fY-VOI" kind="show" id="vYt-Vb-gbf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fo8-cZ-kCm">
+                                <rect key="frame" x="153" y="378" width="109" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="L3">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3cv-i2-avs" kind="show" id="18F-27-iAn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,6 +76,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2v9-GY-TNZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="620" y="-90"/>
+        </scene>
+        <!--golfwangl2-->
+        <scene sceneID="Auc-xC-WjK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="golfwangl2" id="vOd-fY-VOI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vlW-Sq-Kqb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34X-Dc-JNR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676" y="-23"/>
+        </scene>
+        <!--golfwangl3-->
+        <scene sceneID="tfa-88-bmJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="golfwangl3" id="3cv-i2-avs" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pw4-74-WDL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59R-t1-0R1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="632" y="93"/>
         </scene>
     </scenes>
 </document>

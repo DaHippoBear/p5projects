@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D758DF5E23DA3C4E003F4C7F /* golfwangl3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758DF5D23DA3C4E003F4C7F /* golfwangl3.storyboard */; };
+		D758DF6023DA3D91003F4C7F /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = D758DF5F23DA3D91003F4C7F /* download.png */; };
+		D758DF6223DA3DCD003F4C7F /* rickandmorty.png in Resources */ = {isa = PBXBuildFile; fileRef = D758DF6123DA3DCD003F4C7F /* rickandmorty.png */; };
 		D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413123CE8287008BD5D9 /* AppDelegate.m */; };
 		D765413523CE8287008BD5D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413423CE8287008BD5D9 /* SceneDelegate.m */; };
 		D765413823CE8287008BD5D9 /* translate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413723CE8287008BD5D9 /* translate.m */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D758DF5D23DA3C4E003F4C7F /* golfwangl3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwangl3.storyboard; sourceTree = "<group>"; };
+		D758DF5F23DA3D91003F4C7F /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = ../../../Downloads/download.png; sourceTree = "<group>"; };
+		D758DF6123DA3DCD003F4C7F /* rickandmorty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rickandmorty.png; path = ../../../Downloads/rickandmorty.png; sourceTree = "<group>"; };
 		D765412D23CE8287008BD5D9 /* translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D765413023CE8287008BD5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D765413123CE8287008BD5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 				D77534FA23D27A760024C678 /* translate.storyboard */,
 				D7B6766323CFC3B1005A1B1E /* golfwangl1.storyboard */,
 				D7B0E21523D90B2700EF4FD5 /* golfwangl2.storyboard */,
+				D758DF5D23DA3C4E003F4C7F /* golfwangl3.storyboard */,
 				D7B0E21123D90A5800EF4FD5 /* golfwang.storyboard */,
 				D765413E23CE8288008BD5D9 /* LaunchScreen.storyboard */,
 			);
@@ -184,6 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				D77FB2F323D7BE0A0088B56B /* golfball.png */,
+				D758DF5F23DA3D91003F4C7F /* download.png */,
+				D758DF6123DA3DCD003F4C7F /* rickandmorty.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -292,11 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
+				D758DF6023DA3D91003F4C7F /* download.png in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
+				D758DF6223DA3DCD003F4C7F /* rickandmorty.png in Resources */,
 				D7B0E21223D90A5800EF4FD5 /* golfwang.storyboard in Resources */,
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
 				D77534FB23D27A760024C678 /* translate.storyboard in Resources */,
 				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,
+				D758DF5E23DA3C4E003F4C7F /* golfwangl3.storyboard in Resources */,
 				D7B6766423CFC3B1005A1B1E /* golfwangl1.storyboard in Resources */,
 				D7B0E21623D90B2700EF4FD5 /* golfwangl2.storyboard in Resources */,
 			);
