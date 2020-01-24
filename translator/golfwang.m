@@ -7,6 +7,10 @@
  // changes hole image to be circular
  self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
  self.hole.layer.masksToBounds = YES;
+    self.portal.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
+    self.portal.layer.masksToBounds = YES;
+    self.portal2.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
+    self.portal2.layer.masksToBounds = YES;
 }
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 NSLog(@"touches Began");
@@ -63,22 +67,13 @@ NSLog(@"touches Ended");
        }
     if (CGRectIntersectsRect(self.ball.frame, self.wall3.frame)) {
 
-          self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
-         }
-    if (CGRectIntersectsRect(self.ball.frame, self.portal1.frame)) {
-     self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
+         self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
         self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
-     
-        
-        
-    }
-    if (CGRectIntersectsRect(self.ball.frame, self.portal1.frame)) {
-     self.ball.center = CGPointMake(self.portal1.center.x, self.portal1.center.y);
-        self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
-     
-        
-        
-    }
+        }
+    if (CGRectIntersectsRect(self.ball.frame, self.portal.frame)) {
+self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
+            
+           }
 }
 
 

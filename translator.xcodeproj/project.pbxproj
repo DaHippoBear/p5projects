@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D758DF5E23DA3C4E003F4C7F /* golfwangl3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758DF5D23DA3C4E003F4C7F /* golfwangl3.storyboard */; };
-		D758DF6023DA3D91003F4C7F /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = D758DF5F23DA3D91003F4C7F /* download.png */; };
-		D758DF6223DA3DCD003F4C7F /* rickandmorty.png in Resources */ = {isa = PBXBuildFile; fileRef = D758DF6123DA3DCD003F4C7F /* rickandmorty.png */; };
+		D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069423DB8C6D00E3A78F /* golfwang.storyboard */; };
+		D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069623DB8D1700E3A78F /* golfwang1.storyboard */; };
+		D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069823DB8FA100E3A78F /* golfwang2.storyboard */; };
+		D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069A23DB912900E3A78F /* golfwang3.storyboard */; };
 		D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413123CE8287008BD5D9 /* AppDelegate.m */; };
 		D765413523CE8287008BD5D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413423CE8287008BD5D9 /* SceneDelegate.m */; };
 		D765413823CE8287008BD5D9 /* translate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413723CE8287008BD5D9 /* translate.m */; };
@@ -24,9 +25,6 @@
 		D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FB2F023D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FB2F123D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
-		D7B0E21223D90A5800EF4FD5 /* golfwang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B0E21123D90A5800EF4FD5 /* golfwang.storyboard */; };
-		D7B0E21623D90B2700EF4FD5 /* golfwangl2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B0E21523D90B2700EF4FD5 /* golfwangl2.storyboard */; };
-		D7B6766423CFC3B1005A1B1E /* golfwangl1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B6766323CFC3B1005A1B1E /* golfwangl1.storyboard */; };
 		D7B6766623CFC436005A1B1E /* golfwang.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6766523CFC436005A1B1E /* golfwang.m */; };
 /* End PBXBuildFile section */
 
@@ -48,9 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D758DF5D23DA3C4E003F4C7F /* golfwangl3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwangl3.storyboard; sourceTree = "<group>"; };
-		D758DF5F23DA3D91003F4C7F /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = ../../../Downloads/download.png; sourceTree = "<group>"; };
-		D758DF6123DA3DCD003F4C7F /* rickandmorty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rickandmorty.png; path = ../../../Downloads/rickandmorty.png; sourceTree = "<group>"; };
+		D727069423DB8C6D00E3A78F /* golfwang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang.storyboard; sourceTree = "<group>"; };
+		D727069623DB8D1700E3A78F /* golfwang1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang1.storyboard; sourceTree = "<group>"; };
+		D727069823DB8FA100E3A78F /* golfwang2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang2.storyboard; sourceTree = "<group>"; };
+		D727069A23DB912900E3A78F /* golfwang3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang3.storyboard; sourceTree = "<group>"; };
 		D765412D23CE8287008BD5D9 /* translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D765413023CE8287008BD5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D765413123CE8287008BD5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,9 +72,6 @@
 		D765416923CE82D0008BD5D9 /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
 		D77534FA23D27A760024C678 /* translate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = translate.storyboard; sourceTree = "<group>"; };
 		D77FB2F223D7BE0A0088B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/golfball.png; sourceTree = "<group>"; };
-		D7B0E21123D90A5800EF4FD5 /* golfwang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang.storyboard; sourceTree = "<group>"; };
-		D7B0E21523D90B2700EF4FD5 /* golfwangl2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwangl2.storyboard; sourceTree = "<group>"; };
-		D7B6766323CFC3B1005A1B1E /* golfwangl1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwangl1.storyboard; sourceTree = "<group>"; };
 		D7B6766523CFC436005A1B1E /* golfwang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfwang.m; sourceTree = "<group>"; };
 		D7B6766723CFC440005A1B1E /* golfwang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfwang.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,10 +174,10 @@
 			children = (
 				D765413923CE8287008BD5D9 /* Main.storyboard */,
 				D77534FA23D27A760024C678 /* translate.storyboard */,
-				D7B6766323CFC3B1005A1B1E /* golfwangl1.storyboard */,
-				D7B0E21523D90B2700EF4FD5 /* golfwangl2.storyboard */,
-				D758DF5D23DA3C4E003F4C7F /* golfwangl3.storyboard */,
-				D7B0E21123D90A5800EF4FD5 /* golfwang.storyboard */,
+				D727069423DB8C6D00E3A78F /* golfwang.storyboard */,
+				D727069623DB8D1700E3A78F /* golfwang1.storyboard */,
+				D727069823DB8FA100E3A78F /* golfwang2.storyboard */,
+				D727069A23DB912900E3A78F /* golfwang3.storyboard */,
 				D765413E23CE8288008BD5D9 /* LaunchScreen.storyboard */,
 			);
 			path = views;
@@ -191,8 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				D77FB2F323D7BE0A0088B56B /* golfball.png */,
-				D758DF5F23DA3D91003F4C7F /* download.png */,
-				D758DF6123DA3DCD003F4C7F /* rickandmorty.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -301,16 +295,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
-				D758DF6023DA3D91003F4C7F /* download.png in Resources */,
+				D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */,
+				D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
-				D758DF6223DA3DCD003F4C7F /* rickandmorty.png in Resources */,
-				D7B0E21223D90A5800EF4FD5 /* golfwang.storyboard in Resources */,
+				D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */,
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
 				D77534FB23D27A760024C678 /* translate.storyboard in Resources */,
+				D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */,
 				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,
-				D758DF5E23DA3C4E003F4C7F /* golfwangl3.storyboard in Resources */,
-				D7B6766423CFC3B1005A1B1E /* golfwangl1.storyboard in Resources */,
-				D7B0E21623D90B2700EF4FD5 /* golfwangl2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

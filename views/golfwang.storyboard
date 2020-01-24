@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qif-5p-Na9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bTD-1f-o0W">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -8,94 +8,94 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="qdW-zy-llT">
+        <scene sceneID="9Gx-pQ-Wul">
             <objects>
-                <viewController id="qif-5p-Na9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JXg-u6-InT">
+                <viewController id="bTD-1f-o0W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYV-Kx-0w3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GOLF WANG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2u-tY-Laq">
-                                <rect key="frame" x="76" y="44" width="262" height="188"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GOLF WANG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9n-GC-Ufw">
+                                <rect key="frame" x="42" y="44" width="330" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlk-aA-aU3">
-                                <rect key="frame" x="154" y="218" width="109" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xA-ct-NdE">
+                                <rect key="frame" x="136" y="228" width="143" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="L1">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="knV-rH-mZf" kind="show" id="A8n-ep-e7R"/>
+                                    <segue destination="AMG-h0-Xp1" kind="show" id="Yws-Aj-Ivy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LjN-ow-oY5">
-                                <rect key="frame" x="154" y="298" width="109" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bym-WK-cZL">
+                                <rect key="frame" x="136" y="339" width="143" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="L2">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vOd-fY-VOI" kind="show" id="vYt-Vb-gbf"/>
+                                    <segue destination="60a-PU-jtj" kind="show" id="xVm-kc-1YM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fo8-cZ-kCm">
-                                <rect key="frame" x="153" y="378" width="109" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSc-FS-gtF">
+                                <rect key="frame" x="136" y="447" width="143" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="L3">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3cv-i2-avs" kind="show" id="18F-27-iAn"/>
+                                    <segue destination="4HD-1N-sto" kind="show" id="OqX-oV-ur6"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="fbN-LL-84H"/>
+                        <viewLayoutGuide key="safeArea" id="a7T-ch-JWz"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vao-p6-2kd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KB-5P-GsG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128.98550724637681" y="109.82142857142857"/>
+            <point key="canvasLocation" x="192.75362318840581" y="172.76785714285714"/>
         </scene>
-        <!--golfwangl1-->
-        <scene sceneID="8hC-BH-ccH">
+        <!--golfwang1-->
+        <scene sceneID="i0z-ls-axE">
             <objects>
-                <viewControllerPlaceholder storyboardName="golfwangl1" id="knV-rH-mZf" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ocf-9N-qsd"/>
+                <viewControllerPlaceholder storyboardName="golfwang1" id="AMG-h0-Xp1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="t3V-pn-SRY"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2v9-GY-TNZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYi-hG-Jnx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="620" y="-90"/>
+            <point key="canvasLocation" x="670" y="25"/>
         </scene>
-        <!--golfwangl2-->
-        <scene sceneID="Auc-xC-WjK">
+        <!--golfwang2-->
+        <scene sceneID="8oF-mg-Tp9">
             <objects>
-                <viewControllerPlaceholder storyboardName="golfwangl2" id="vOd-fY-VOI" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="vlW-Sq-Kqb"/>
+                <viewControllerPlaceholder storyboardName="golfwang2" id="60a-PU-jtj" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DQo-22-b7H"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="34X-Dc-JNR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IlR-lf-fK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="676" y="-23"/>
+            <point key="canvasLocation" x="661" y="119"/>
         </scene>
-        <!--golfwangl3-->
-        <scene sceneID="tfa-88-bmJ">
+        <!--golfwang3-->
+        <scene sceneID="8zm-j6-za0">
             <objects>
-                <viewControllerPlaceholder storyboardName="golfwangl3" id="3cv-i2-avs" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="pw4-74-WDL"/>
+                <viewControllerPlaceholder storyboardName="golfwang3" id="4HD-1N-sto" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="GrS-hP-iX8"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="59R-t1-0R1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Gc-x7-9SM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="632" y="93"/>
+            <point key="canvasLocation" x="701" y="207"/>
         </scene>
     </scenes>
 </document>
