@@ -10,6 +10,7 @@
  @property (strong, nonatomic) IBOutlet UIImageView *wall3;
  @property (strong, nonatomic) IBOutlet UIImageView *portal;
  @property (strong, nonatomic) IBOutlet UIImageView *portal2;
+ @property (strong, nonatomic) IBOutlet UILabel *onoff;
  // These values simulate speed and friction
  @property (nonatomic) CGPoint firstPoint;
  @property (nonatomic) CGPoint lastPoint;

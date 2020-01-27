@@ -11,6 +11,7 @@
 		D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069623DB8D1700E3A78F /* golfwang1.storyboard */; };
 		D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069823DB8FA100E3A78F /* golfwang2.storyboard */; };
 		D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069A23DB912900E3A78F /* golfwang3.storyboard */; };
+		D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72D361F23DF98C50006EFAD /* golfwang4.storyboard */; };
 		D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413123CE8287008BD5D9 /* AppDelegate.m */; };
 		D765413523CE8287008BD5D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413423CE8287008BD5D9 /* SceneDelegate.m */; };
 		D765413823CE8287008BD5D9 /* translate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413723CE8287008BD5D9 /* translate.m */; };
@@ -50,6 +51,7 @@
 		D727069623DB8D1700E3A78F /* golfwang1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang1.storyboard; sourceTree = "<group>"; };
 		D727069823DB8FA100E3A78F /* golfwang2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang2.storyboard; sourceTree = "<group>"; };
 		D727069A23DB912900E3A78F /* golfwang3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang3.storyboard; sourceTree = "<group>"; };
+		D72D361F23DF98C50006EFAD /* golfwang4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang4.storyboard; sourceTree = "<group>"; };
 		D765412D23CE8287008BD5D9 /* translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D765413023CE8287008BD5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D765413123CE8287008BD5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				D727069623DB8D1700E3A78F /* golfwang1.storyboard */,
 				D727069823DB8FA100E3A78F /* golfwang2.storyboard */,
 				D727069A23DB912900E3A78F /* golfwang3.storyboard */,
+				D72D361F23DF98C50006EFAD /* golfwang4.storyboard */,
 				D765413E23CE8288008BD5D9 /* LaunchScreen.storyboard */,
 			);
 			path = views;
@@ -302,6 +305,7 @@
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
 				D77534FB23D27A760024C678 /* translate.storyboard in Resources */,
 				D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */,
+				D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */,
 				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

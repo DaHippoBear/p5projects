@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #include "golfwang.h"
 @implementation GolfController
-@synthesize ball, hole, wall;
+@synthesize ball, hole, wall, portal, portal2, wall2, wall3, onoff;
 - (void)viewDidLoad {
  [super viewDidLoad];
  // changes hole image to be circular
@@ -11,6 +11,8 @@
     self.portal.layer.masksToBounds = YES;
     self.portal2.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
     self.portal2.layer.masksToBounds = YES;
+    self.onoff.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
+    self.onoff.layer.masksToBounds = YES;
 }
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 NSLog(@"touches Began");
@@ -51,6 +53,12 @@ NSLog(@"touches Ended");
        
        
    }
+    if (CGRectIntersectsRect(self.ball.frame, self.onoff.frame)) {
+      [onoff setBackgroundColor:[UIColor greenColor]];
+        self.wall3.alpha = 0;
+         
+         
+     }
     
    // if ball slows/stops turn off game timer and turn user interaction back on
    if(fabs(self.ballVelocityX) < stopSpeed && fabs(self.ballVelocityY) < stopSpeed) {
