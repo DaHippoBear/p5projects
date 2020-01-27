@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #include "golfwang.h"
 @implementation GolfController
-@synthesize ball, hole, wall, portal, portal2, wall2, wall3, onoff;
+@synthesize ball, hole, wall, portal, portal2, wall2, wall3, onoff, nextlvl, laser;
 - (void)viewDidLoad {
  [super viewDidLoad];
  // changes hole image to be circular
@@ -13,6 +13,9 @@
     self.portal2.layer.masksToBounds = YES;
     self.onoff.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
     self.onoff.layer.masksToBounds = YES;
+    self.nextlvl.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
+    self.nextlvl.layer.masksToBounds = YES;
+     self.nextlvl.hidden = YES;
 }
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 NSLog(@"touches Began");
@@ -50,12 +53,14 @@ NSLog(@"touches Ended");
     [self.view setUserInteractionEnabled:YES];
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
+       self.nextlvl.hidden = FALSE;
        
        
    }
     if (CGRectIntersectsRect(self.ball.frame, self.onoff.frame)) {
       [onoff setBackgroundColor:[UIColor greenColor]];
-        self.wall3.alpha = 0;
+     //   self.wall3.alpha = 0;
+        self.wall3.hidden = YES;
          
          
      }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8T3-Tk-XJ8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Golf Controller-->
         <scene sceneID="Yjd-F7-eAH">
             <objects>
-                <viewController id="8T3-Tk-XJ8" sceneMemberID="viewController">
+                <viewController id="8T3-Tk-XJ8" customClass="GolfController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0fV-XL-JzS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,6 +51,14 @@
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="P92-EV-IOv"/>
                     </view>
+                    <connections>
+                        <outlet property="ball" destination="CeV-EK-DO6" id="Hjy-HX-XPR"/>
+                        <outlet property="hole" destination="kWD-cf-ytu" id="c5S-Yz-aY1"/>
+                        <outlet property="laser" destination="Eyc-dW-r16" id="jVD-KI-T3Q"/>
+                        <outlet property="onoff" destination="FQN-Ub-3zK" id="VQU-G7-nsu"/>
+                        <outlet property="wall" destination="ABk-uY-Fhg" id="bNj-6K-1C5"/>
+                        <outlet property="wall2" destination="9tM-e0-DVX" id="j8A-mV-e8v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i4F-MG-T1N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

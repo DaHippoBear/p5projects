@@ -58,6 +58,18 @@
                                     <segue destination="4HD-1N-sto" kind="show" id="OqX-oV-ur6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux6-cA-Kth">
+                                <rect key="frame" x="136" y="557" width="143" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="L4">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ii9-zr-fb0" kind="show" id="G8z-eG-C6l"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="a7T-ch-JWz"/>
@@ -96,6 +108,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Gc-x7-9SM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="701" y="207"/>
+        </scene>
+        <!--golfwang4-->
+        <scene sceneID="tmg-iY-urA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="golfwang4" id="Ii9-zr-fb0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Qlf-u7-8Pl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBB-6P-6XB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="663" y="283"/>
         </scene>
     </scenes>
 </document>
