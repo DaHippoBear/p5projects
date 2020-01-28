@@ -12,6 +12,7 @@
  @property (strong, nonatomic) IBOutlet UIImageView *portal2;
 @property (strong, nonatomic) IBOutlet UIImageView *laser;
  @property (strong, nonatomic) IBOutlet UILabel *onoff;
+@property (strong, nonatomic) IBOutlet UILabel *laser2;
 @property (strong, nonatomic) IBOutlet UIButton *nextlvl;
  // These values simulate speed and friction
  @property (nonatomic) CGPoint firstPoint;

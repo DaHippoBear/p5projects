@@ -67,6 +67,7 @@
                     <connections>
                         <outlet property="ball" destination="zPY-CD-2wC" id="TW3-JR-B5i"/>
                         <outlet property="hole" destination="iGR-Gg-QEF" id="lA9-J7-dcz"/>
+                        <outlet property="nextlvl" destination="3gU-Y8-KCM" id="793-NX-ouZ"/>
                         <outlet property="portal" destination="5OV-z3-mmj" id="9yP-5S-LX8"/>
                         <outlet property="portal2" destination="x1D-uE-5TS" id="JXb-qn-g4r"/>
                     </connections>

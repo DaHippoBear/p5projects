@@ -59,8 +59,13 @@ NSLog(@"touches Ended");
    }
     if (CGRectIntersectsRect(self.ball.frame, self.onoff.frame)) {
       [onoff setBackgroundColor:[UIColor greenColor]];
-     //   self.wall3.alpha = 0;
-        self.wall3.hidden = YES;
+        self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+           self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+        self.laser.alpha = 0;
+        self.laser.hidden = YES;
+        self.laser.center = CGPointMake(self.laser2.center.x, self.laser2.center.y);
+        
+        
          
          
      }
@@ -83,10 +88,18 @@ NSLog(@"touches Ended");
          self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
         self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
         }
+    if (CGRectIntersectsRect(self.ball.frame, self.laser.frame)) {
+
+     self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+    self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+    }
+    
     if (CGRectIntersectsRect(self.ball.frame, self.portal.frame)) {
 self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
             
            }
+    
+        
 }
 
 
