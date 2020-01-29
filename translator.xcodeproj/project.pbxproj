@@ -27,6 +27,7 @@
 		D77FB2F023D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FB2F123D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D7B6766623CFC436005A1B1E /* golfwang.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6766523CFC436005A1B1E /* golfwang.m */; };
+		D7EFF72623E240FF009B3C13 /* clapping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7EFF72523E240FF009B3C13 /* clapping.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		D77FB2F223D7BE0A0088B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/golfball.png; sourceTree = "<group>"; };
 		D7B6766523CFC436005A1B1E /* golfwang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfwang.m; sourceTree = "<group>"; };
 		D7B6766723CFC440005A1B1E /* golfwang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfwang.h; sourceTree = "<group>"; };
+		D7EFF72523E240FF009B3C13 /* clapping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clapping.mp3; path = ../../../Downloads/clapping.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,7 @@
 		D765412423CE8287008BD5D9 = {
 			isa = PBXGroup;
 			children = (
-				D7B6766823CFC44B005A1B1E /* images */,
+				D7B6766823CFC44B005A1B1E /* media */,
 				D7B6766223CFC37D005A1B1E /* views */,
 				D765416623CE82AC008BD5D9 /* control */,
 				D765412F23CE8287008BD5D9 /* translator */,
@@ -186,12 +188,13 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		D7B6766823CFC44B005A1B1E /* images */ = {
+		D7B6766823CFC44B005A1B1E /* media */ = {
 			isa = PBXGroup;
 			children = (
+				D7EFF72523E240FF009B3C13 /* clapping.mp3 */,
 				D77FB2F323D7BE0A0088B56B /* golfball.png */,
 			);
-			path = images;
+			path = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +302,7 @@
 			files = (
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
 				D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */,
+				D7EFF72623E240FF009B3C13 /* clapping.mp3 in Resources */,
 				D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
 				D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */,
@@ -521,7 +525,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = raw.translator;
+				PRODUCT_BUNDLE_IDENTIFIER = app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -537,7 +541,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = raw.translator;
+				PRODUCT_BUNDLE_IDENTIFIER = app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

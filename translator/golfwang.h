@@ -1,8 +1,15 @@
   #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
  #define speedScale 0.20
  #define speedDamping 0.90 // friction rate
  #define stopSpeed 5.0
  @interface GolfController : UIViewController
+
+
+
+{
+  AVAudioPlayer *player;
+}
  @property (strong, nonatomic) IBOutlet UIImageView *hole;
  @property (strong, nonatomic) IBOutlet UIImageView *ball;
  @property (strong, nonatomic) IBOutlet UIImageView *wall;

@@ -53,6 +53,10 @@ NSLog(@"touches Ended");
     [self.view setUserInteractionEnabled:YES];
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
+       NSString *path = [[NSBundle mainBundle] pathForResource:@"clapping" ofType:@"mp3"];
+       NSURL *url = [NSURL URLWithString:path];
+       player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+       [player play];
        self.nextlvl.hidden = FALSE;
        
        
