@@ -22,11 +22,11 @@
 		D765414D23CE8288008BD5D9 /* translatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D765414C23CE8288008BD5D9 /* translatorTests.m */; };
 		D765415823CE8289008BD5D9 /* translatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D765415723CE8289008BD5D9 /* translatorUITests.m */; };
 		D765416A23CE82D0008BD5D9 /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = D765416923CE82D0008BD5D9 /* translate.c */; };
-		D767A76423E38BEB000A8AAA /* clapping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D767A76323E38BEB000A8AAA /* clapping.mp3 */; };
 		D77534FB23D27A760024C678 /* translate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77534FA23D27A760024C678 /* translate.storyboard */; };
 		D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FB2F023D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FB2F123D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
+		D77FE55023E393530021CCEC /* clapping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D77FE54F23E393530021CCEC /* clapping.mp3 */; };
 		D7B6766623CFC436005A1B1E /* golfwang.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6766523CFC436005A1B1E /* golfwang.m */; };
 /* End PBXBuildFile section */
 
@@ -73,9 +73,9 @@
 		D765415923CE8289008BD5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D765416723CE82C3008BD5D9 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		D765416923CE82D0008BD5D9 /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
-		D767A76323E38BEB000A8AAA /* clapping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clapping.mp3; path = ../../../Downloads/clapping.mp3; sourceTree = "<group>"; };
 		D77534FA23D27A760024C678 /* translate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = translate.storyboard; sourceTree = "<group>"; };
 		D77FB2F223D7BE0A0088B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/golfball.png; sourceTree = "<group>"; };
+		D77FE54F23E393530021CCEC /* clapping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clapping.mp3; sourceTree = "<group>"; };
 		D7B6766523CFC436005A1B1E /* golfwang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfwang.m; sourceTree = "<group>"; };
 		D7B6766723CFC440005A1B1E /* golfwang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfwang.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,8 +191,8 @@
 		D7B6766823CFC44B005A1B1E /* media */ = {
 			isa = PBXGroup;
 			children = (
+				D77FE54F23E393530021CCEC /* clapping.mp3 */,
 				D77FB2F323D7BE0A0088B56B /* golfball.png */,
-				D767A76323E38BEB000A8AAA /* clapping.mp3 */,
 			);
 			path = media;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 			files = (
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
 				D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */,
-				D767A76423E38BEB000A8AAA /* clapping.mp3 in Resources */,
+				D77FE55023E393530021CCEC /* clapping.mp3 in Resources */,
 				D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
 				D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */,
@@ -520,12 +520,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNW6SX35BW;
 				INFOPLIST_FILE = translator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app;
+				PRODUCT_BUNDLE_IDENTIFIER = compsciDS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -536,12 +537,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNW6SX35BW;
 				INFOPLIST_FILE = translator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app;
+				PRODUCT_BUNDLE_IDENTIFIER = compsciDS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -551,7 +553,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNW6SX35BW;
 				INFOPLIST_FILE = translatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -570,7 +574,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNW6SX35BW;
 				INFOPLIST_FILE = translatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -588,7 +594,9 @@
 		D765416323CE8289008BD5D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNW6SX35BW;
 				INFOPLIST_FILE = translatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,7 +613,9 @@
 		D765416423CE8289008BD5D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNW6SX35BW;
 				INFOPLIST_FILE = translatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
