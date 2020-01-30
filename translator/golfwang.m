@@ -100,6 +100,8 @@ NSLog(@"touches Ended");
     
     if (CGRectIntersectsRect(self.ball.frame, self.portal.frame)) {
 self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
+       [portal setBackgroundColor:[UIColor orangeColor]];
+        [portal2 setBackgroundColor:[UIColor blueColor]];
             
            }
     
