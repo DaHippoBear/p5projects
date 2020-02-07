@@ -8,3 +8,6 @@
 
 char *pig(char* input);
 char *shorty(char* input);
+//int *initialcardinput(char* input);
+//int *shorty(char* input);
+//int *shorty(char* input);
