@@ -13,8 +13,9 @@
 		D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069623DB8D1700E3A78F /* golfwang1.storyboard */; };
 		D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069823DB8FA100E3A78F /* golfwang2.storyboard */; };
 		D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069A23DB912900E3A78F /* golfwang3.storyboard */; };
-		D72A117123E8D64F0070E6EC /* blackjack.c in Sources */ = {isa = PBXBuildFile; fileRef = D72A117023E8D64F0070E6EC /* blackjack.c */; };
 		D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72D361F23DF98C50006EFAD /* golfwang4.storyboard */; };
+		D75539B023F2138C0057E260 /* blackjack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75539AF23F2138C0057E260 /* blackjack.storyboard */; };
+		D75539B223F216820057E260 /* gamble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75539B123F216820057E260 /* gamble.storyboard */; };
 		D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413123CE8287008BD5D9 /* AppDelegate.m */; };
 		D765413523CE8287008BD5D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413423CE8287008BD5D9 /* SceneDelegate.m */; };
 		D765413823CE8287008BD5D9 /* translate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413723CE8287008BD5D9 /* translate.m */; };
@@ -58,8 +59,9 @@
 		D727069823DB8FA100E3A78F /* golfwang2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang2.storyboard; sourceTree = "<group>"; };
 		D727069A23DB912900E3A78F /* golfwang3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang3.storyboard; sourceTree = "<group>"; };
 		D72A116F23E8D64F0070E6EC /* blackjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blackjack.h; sourceTree = "<group>"; };
-		D72A117023E8D64F0070E6EC /* blackjack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blackjack.c; sourceTree = "<group>"; };
 		D72D361F23DF98C50006EFAD /* golfwang4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang4.storyboard; sourceTree = "<group>"; };
+		D75539AF23F2138C0057E260 /* blackjack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = blackjack.storyboard; sourceTree = "<group>"; };
+		D75539B123F216820057E260 /* gamble.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = gamble.storyboard; sourceTree = "<group>"; };
 		D765412D23CE8287008BD5D9 /* translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D765413023CE8287008BD5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D765413123CE8287008BD5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,7 +181,6 @@
 			children = (
 				D765416723CE82C3008BD5D9 /* control.h */,
 				D765416923CE82D0008BD5D9 /* translate.c */,
-				D72A117023E8D64F0070E6EC /* blackjack.c */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -191,6 +192,8 @@
 				D77534FA23D27A760024C678 /* translate.storyboard */,
 				D727069423DB8C6D00E3A78F /* golfwang.storyboard */,
 				D727069623DB8D1700E3A78F /* golfwang1.storyboard */,
+				D75539AF23F2138C0057E260 /* blackjack.storyboard */,
+				D75539B123F216820057E260 /* gamble.storyboard */,
 				D727069823DB8FA100E3A78F /* golfwang2.storyboard */,
 				D727069A23DB912900E3A78F /* golfwang3.storyboard */,
 				D72D361F23DF98C50006EFAD /* golfwang4.storyboard */,
@@ -317,10 +320,12 @@
 				D7101ABC23ECC78500F63EFB /* PNG-cards-1.3 in Resources */,
 				D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
+				D75539B223F216820057E260 /* gamble.storyboard in Resources */,
 				D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */,
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
 				D77534FB23D27A760024C678 /* translate.storyboard in Resources */,
 				D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */,
+				D75539B023F2138C0057E260 /* blackjack.storyboard in Resources */,
 				D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */,
 				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,
 			);
@@ -350,7 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765416A23CE82D0008BD5D9 /* translate.c in Sources */,
-				D72A117123E8D64F0070E6EC /* blackjack.c in Sources */,
 				D765413823CE8287008BD5D9 /* translate.m in Sources */,
 				D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */,
 				D7101ABE23ECC8C400F63EFB /* blackjack.m in Sources */,
