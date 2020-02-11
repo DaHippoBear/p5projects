@@ -13,9 +13,10 @@
 @end
 
 @implementation blackjackViewController
-@synthesize startButton, resetButton, hitButton, standButton, player1, player2, player3, player4, house1, house2, house3, house4, playerPointLabel, housePointLabel, infoLabel;
+@synthesize startButton, resetButton, hitButton, standButton, player1, player2, player3, player4, house1, house2, house3, house4, playerPointLabel, housePointLabel, infoLabel, betlabel, bet100Button, bet200Button, bet500Button, bet1000Button;
 
-
+int balance = 1000;
+int bet;
 int temp = 0;
 int hitt = 0;
 int playerPointInt = 0;
@@ -29,6 +30,8 @@ int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+betlabel.text = [NSString stringWithFormat:@"%d" , balance];
     for(int x = 0; x < 52; x++){
         deckArray[x] = x;
         self.resetButton.layer.cornerRadius = .5*self.resetButton.layer.frame.size.height;
@@ -44,7 +47,7 @@ int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6
     // Do any additional setup after loading the view.
     //NSString *png = @"14c.png";
     
-    self.cards = [NSArray arrayWithObjects:@"2c.png", @"2d.png", @"2h.png", @"2s.png", @"3c.png", @"3d.png", @"3h.png", @"3s.png", @"4c.png", @"4d.png", @"4h.png", @"4s.png", @"5c.png", @"5d.png", @"5h.png", @"5s.png", @"6c.png", @"6d.png", @"6h.png", @"6s.png", @"7c.png", @"7d.png", @"7h.png", @"7s.png", @"8c.png", @"8d.png", @"8h.png", @"8s.png", @"9c.png", @"9d.png", @"9h.png", @"9s.png", @"10c.png", @"10d.png", @"10h.png", @"10s.png", @"11c.png", @"11d.png", @"11h.png", @"11s.png", @"12c.png", @"12d.png", @"12h.png", @"12s.png", @"13c.png", @"13d.png", @"13h.png", @"13s.png", @"14c.png", @"14d.png", @"14h.png", @"14s.png", nil];
+    self.cards = [NSArray arrayWithObjects:@"2c.png", @"2d.png", @"2h.png", @"2s.png", @"3c.png", @"3d.png", @"3h.png", @"3s.png", @"4c.png", @"4d.png", @"4h.png", @"4s.png", @"5c.png", @"5d.png", @"5h.png", @"5s.png", @"6c.png", @"6d.png", @"6h.png", @"6s.png", @"7c.png", @"7d.png", @"7h.png", @"7s.png", @"8c.png", @"8d.png", @"8h.png", @"8s.png", @"9c.png", @"9d.png", @"9h.png", @"9s.png", @"10c.png", @"10d.png", @"10h.png", @"10s.png", @"11c.png", @"11d.png", @"11h.png", @"11s.png", @"12c.png", @"12d.png", @"12h.png", @"12s.png", @"13c.png", @"13d.png", @"13h.png", @"13s.png", @"14c.png", @"14d.png", @"14h.png", @"14s.png", @"cardBack.png", nil];
     
     int n = sizeof(deckArray)/ sizeof(deckArray[0]);
     randomize(deckArray, n);
@@ -109,6 +112,26 @@ int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6
     temp = 0;
     int n = sizeof(deckArray)/ sizeof(deckArray[0]);
     randomize(deckArray, n);
+}
+- (IBAction)bet100Button:(id)sender {
+    bet = 100;
+    balance = balance - bet;
+    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+}
+- (IBAction)bet200Button:(id)sender {
+    bet = 200;
+    balance = balance - bet;
+    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+}
+- (IBAction)bet500Button:(id)sender {
+    bet = 500;
+    balance = balance - bet;
+    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+}
+- (IBAction)bet1000Button:(id)sender {
+    bet = 1000;
+    balance = balance - bet;
+    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
 }
 
 
@@ -261,6 +284,21 @@ void aceCheckerHouse(){
         infoLabel.hidden = NO;
         resetButton.hidden = NO;
         playerPointLabel.textColor = [UIColor redColor];
+        balance = balance - bet;
+        bet = 0;
+    }
+}
+
+-(void)brokeCheck {
+    if (balance < 100) {
+        hitButton.hidden = YES;
+        standButton.hidden = YES;
+        infoLabel.text = [NSString stringWithFormat:@"YOU ARE BROKE!"];
+        infoLabel.hidden = NO;
+        resetButton.hidden = NO;
+        playerPointLabel.textColor = [UIColor redColor];
+        balance = 0;
+        bet = 0;
     }
 }
 
@@ -274,6 +312,8 @@ void aceCheckerHouse(){
         housePointLabel.text = [NSString stringWithFormat:@"%d", housePointInt];
         housePointLabel.textColor = [UIColor redColor];
         housePointLabel.hidden = NO;
+        balance = 2*bet;
+        bet = 0;
         return 1;
     }
     return 0;

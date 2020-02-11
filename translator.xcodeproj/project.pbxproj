@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D7101ABC23ECC78500F63EFB /* PNG-cards-1.3 in Resources */ = {isa = PBXBuildFile; fileRef = D7101ABB23ECC78500F63EFB /* PNG-cards-1.3 */; };
 		D7101ABE23ECC8C400F63EFB /* blackjack.m in Sources */ = {isa = PBXBuildFile; fileRef = D7101ABD23ECC8C400F63EFB /* blackjack.m */; };
+		D71E656E23F36EBB005E151B /* pokertop.png in Resources */ = {isa = PBXBuildFile; fileRef = D71E656D23F36EBB005E151B /* pokertop.png */; };
+		D71E657023F36ECE005E151B /* greenpokertable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71E656F23F36ECE005E151B /* greenpokertable.jpg */; };
 		D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069423DB8C6D00E3A78F /* golfwang.storyboard */; };
 		D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069623DB8D1700E3A78F /* golfwang1.storyboard */; };
 		D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069823DB8FA100E3A78F /* golfwang2.storyboard */; };
@@ -54,6 +56,8 @@
 /* Begin PBXFileReference section */
 		D7101ABB23ECC78500F63EFB /* PNG-cards-1.3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PNG-cards-1.3"; sourceTree = "<group>"; };
 		D7101ABD23ECC8C400F63EFB /* blackjack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blackjack.m; sourceTree = "<group>"; };
+		D71E656D23F36EBB005E151B /* pokertop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokertop.png; sourceTree = "<group>"; };
+		D71E656F23F36ECE005E151B /* greenpokertable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenpokertable.jpg; sourceTree = "<group>"; };
 		D727069423DB8C6D00E3A78F /* golfwang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang.storyboard; sourceTree = "<group>"; };
 		D727069623DB8D1700E3A78F /* golfwang1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang1.storyboard; sourceTree = "<group>"; };
 		D727069823DB8FA100E3A78F /* golfwang2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang2.storyboard; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				D77FE54F23E393530021CCEC /* clapping.mp3 */,
+				D71E656D23F36EBB005E151B /* pokertop.png */,
+				D71E656F23F36ECE005E151B /* greenpokertable.jpg */,
 				D77FB2F323D7BE0A0088B56B /* golfball.png */,
 			);
 			path = media;
@@ -317,6 +323,7 @@
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
 				D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */,
 				D77FE55023E393530021CCEC /* clapping.mp3 in Resources */,
+				D71E656E23F36EBB005E151B /* pokertop.png in Resources */,
 				D7101ABC23ECC78500F63EFB /* PNG-cards-1.3 in Resources */,
 				D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
@@ -325,6 +332,7 @@
 				D765413B23CE8287008BD5D9 /* Main.storyboard in Resources */,
 				D77534FB23D27A760024C678 /* translate.storyboard in Resources */,
 				D727069723DB8D1700E3A78F /* golfwang1.storyboard in Resources */,
+				D71E657023F36ECE005E151B /* greenpokertable.jpg in Resources */,
 				D75539B023F2138C0057E260 /* blackjack.storyboard in Resources */,
 				D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */,
 				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,

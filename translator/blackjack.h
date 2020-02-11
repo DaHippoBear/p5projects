@@ -16,6 +16,10 @@
   @property (weak, nonatomic) IBOutlet UIButton *hitButton;
   @property (weak, nonatomic) IBOutlet UIButton *standButton;
   @property (weak, nonatomic) IBOutlet UIButton *resetButton;
+  @property (weak, nonatomic) IBOutlet UIButton *bet100Button;
+  @property (weak, nonatomic) IBOutlet UIButton *bet200Button;
+  @property (weak, nonatomic) IBOutlet UIButton *bet500Button;
+  @property (weak, nonatomic) IBOutlet UIButton *bet1000Button;
   @property (strong, nonatomic) IBOutlet UIImageView *player1;
   @property (strong, nonatomic) IBOutlet UIImageView *player2;
   @property (strong, nonatomic) IBOutlet UIImageView *player3;
