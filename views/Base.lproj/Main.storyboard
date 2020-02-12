@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="573" y="15"/>
         </scene>
-        <!--gamble-->
+        <!--blackjack-->
         <scene sceneID="iL3-um-7H8">
             <objects>
-                <viewControllerPlaceholder storyboardName="gamble" id="hgT-7D-10R" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="blackjack" id="hgT-7D-10R" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="IfH-gP-Uun"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JaH-5I-t9I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

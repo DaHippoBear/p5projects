@@ -22,6 +22,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *laser2;
 @property (strong, nonatomic) IBOutlet UIButton *nextlvl;
 @property (strong, nonatomic) IBOutlet UIButton *golfwang;
+
  // These values simulate speed and friction
  @property (nonatomic) CGPoint firstPoint;
  @property (nonatomic) CGPoint lastPoint;

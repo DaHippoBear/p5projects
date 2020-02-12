@@ -13,10 +13,10 @@
 @end
 
 @implementation blackjackViewController
-@synthesize startButton, resetButton, hitButton, standButton, player1, player2, player3, player4, house1, house2, house3, house4, playerPointLabel, housePointLabel, infoLabel, betlabel, bet100Button, bet200Button, bet500Button, bet1000Button;
+@synthesize startButton, resetButton, hitButton, standButton, player1, player2, player3, player4, house1, house2, house3, house4, playerPointLabel, housePointLabel, infoLabel, betlabel, bet100Button, bet200Button, bet500Button, bet1000Button, sstartButton, startupscreen, balancelabel;
 
 int balance = 1000;
-int bet;
+int bet = 0;
 int temp = 0;
 int hitt = 0;
 int playerPointInt = 0;
@@ -31,7 +31,8 @@ int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+balancelabel.text = [NSString stringWithFormat:@"%d" , balance];
+    betlabel.text = [NSString stringWithFormat:@"%d" , bet];
     for(int x = 0; x < 52; x++){
         deckArray[x] = x;
         self.resetButton.layer.cornerRadius = .5*self.resetButton.layer.frame.size.height;
@@ -69,6 +70,13 @@ betlabel.text = [NSString stringWithFormat:@"%d" , balance];
 - (IBAction)startGame:(id)sender {
     
     startButton.hidden = YES;
+    bet100Button.hidden = YES;
+    bet200Button.hidden = YES;
+    bet500Button.hidden = YES;
+    bet1000Button.hidden = YES;
+    startupscreen.hidden = YES;
+    balancelabel.hidden = YES;
+    betlabel.hidden = YES;
     hitButton.hidden = NO;
     standButton.hidden = NO;
     playerPointLabel.hidden = NO;
@@ -116,22 +124,26 @@ betlabel.text = [NSString stringWithFormat:@"%d" , balance];
 - (IBAction)bet100Button:(id)sender {
     bet = 100;
     balance = balance - bet;
-    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+    betlabel.text = [NSString stringWithFormat:@"%d" , bet];
+     balancelabel.text = [NSString stringWithFormat:@"%d" , balance];
 }
 - (IBAction)bet200Button:(id)sender {
     bet = 200;
     balance = balance - bet;
-    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+    betlabel.text = [NSString stringWithFormat:@"%d" , bet];
+    balancelabel.text = [NSString stringWithFormat:@"%d" , balance];
 }
 - (IBAction)bet500Button:(id)sender {
     bet = 500;
     balance = balance - bet;
-    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+    betlabel.text = [NSString stringWithFormat:@"%d" , bet];
+    balancelabel.text = [NSString stringWithFormat:@"%d" , balance];
 }
 - (IBAction)bet1000Button:(id)sender {
     bet = 1000;
     balance = balance - bet;
-    betlabel.text = [NSString stringWithFormat:@"%d" , balance];
+    betlabel.text = [NSString stringWithFormat:@"%d" , bet];
+    balancelabel.text = [NSString stringWithFormat:@"%d" , balance];
 }
 
 

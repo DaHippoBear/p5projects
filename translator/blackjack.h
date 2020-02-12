@@ -13,6 +13,7 @@
   @interface blackjackViewController : UIViewController
   @property (strong, nonatomic) NSArray *cards;
   @property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property (weak, nonatomic) IBOutlet UIButton *sstartButton;
   @property (weak, nonatomic) IBOutlet UIButton *hitButton;
   @property (weak, nonatomic) IBOutlet UIButton *standButton;
   @property (weak, nonatomic) IBOutlet UIButton *resetButton;
@@ -28,10 +29,12 @@
   @property (strong, nonatomic) IBOutlet UIImageView *house2;
   @property (strong, nonatomic) IBOutlet UIImageView *house3;
   @property (strong, nonatomic) IBOutlet UIImageView *house4;
+@property (strong, nonatomic) IBOutlet UIImageView *startupscreen;
   @property (strong, nonatomic) IBOutlet UILabel *playerPointLabel;
   @property (strong, nonatomic) IBOutlet UILabel *housePointLabel;
   @property (strong, nonatomic) IBOutlet UILabel *infoLabel;
   @property (strong, nonatomic) IBOutlet UILabel *betlabel;
+  @property (strong, nonatomic) IBOutlet UILabel *balancelabel;
 
 
   @end
