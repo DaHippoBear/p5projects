@@ -296,15 +296,7 @@ void aceCheckerHouse(){
         infoLabel.hidden = NO;
         resetButton.hidden = NO;
         playerPointLabel.textColor = [UIColor redColor];
-        balance = balance - bet;
-        bet = 0;
-        startButton.hidden = NO;
-           bet100Button.hidden = NO;
-           bet200Button.hidden = NO;
-           bet500Button.hidden = NO;
-           bet1000Button.hidden = NO;
-           startupscreen.hidden = NO;
-           balancelabel.hidden = NO;
+
     }
 }
 
