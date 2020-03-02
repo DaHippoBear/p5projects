@@ -16,6 +16,8 @@
 		D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069823DB8FA100E3A78F /* golfwang2.storyboard */; };
 		D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727069A23DB912900E3A78F /* golfwang3.storyboard */; };
 		D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72D361F23DF98C50006EFAD /* golfwang4.storyboard */; };
+		D739ACF8240DBF79007A997C /* roulette.m in Sources */ = {isa = PBXBuildFile; fileRef = D739ACF7240DBF79007A997C /* roulette.m */; };
+		D739ACFA240DBF99007A997C /* roulette.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D739ACF9240DBF99007A997C /* roulette.storyboard */; };
 		D75539B023F2138C0057E260 /* blackjack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75539AF23F2138C0057E260 /* blackjack.storyboard */; };
 		D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413123CE8287008BD5D9 /* AppDelegate.m */; };
 		D765413523CE8287008BD5D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D765413423CE8287008BD5D9 /* SceneDelegate.m */; };
@@ -63,6 +65,9 @@
 		D727069A23DB912900E3A78F /* golfwang3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang3.storyboard; sourceTree = "<group>"; };
 		D72A116F23E8D64F0070E6EC /* blackjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blackjack.h; sourceTree = "<group>"; };
 		D72D361F23DF98C50006EFAD /* golfwang4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfwang4.storyboard; sourceTree = "<group>"; };
+		D739ACF6240DBF37007A997C /* roulette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roulette.h; sourceTree = "<group>"; };
+		D739ACF7240DBF79007A997C /* roulette.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roulette.m; sourceTree = "<group>"; };
+		D739ACF9240DBF99007A997C /* roulette.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = roulette.storyboard; sourceTree = "<group>"; };
 		D75539AF23F2138C0057E260 /* blackjack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = blackjack.storyboard; sourceTree = "<group>"; };
 		D765412D23CE8287008BD5D9 /* translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D765413023CE8287008BD5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,6 +151,8 @@
 				D765413023CE8287008BD5D9 /* AppDelegate.h */,
 				D765413123CE8287008BD5D9 /* AppDelegate.m */,
 				D765413323CE8287008BD5D9 /* SceneDelegate.h */,
+				D739ACF7240DBF79007A997C /* roulette.m */,
+				D739ACF6240DBF37007A997C /* roulette.h */,
 				D72A116F23E8D64F0070E6EC /* blackjack.h */,
 				D7101ABD23ECC8C400F63EFB /* blackjack.m */,
 				D765413423CE8287008BD5D9 /* SceneDelegate.m */,
@@ -195,6 +202,7 @@
 				D727069423DB8C6D00E3A78F /* golfwang.storyboard */,
 				D727069623DB8D1700E3A78F /* golfwang1.storyboard */,
 				D75539AF23F2138C0057E260 /* blackjack.storyboard */,
+				D739ACF9240DBF99007A997C /* roulette.storyboard */,
 				D727069823DB8FA100E3A78F /* golfwang2.storyboard */,
 				D727069A23DB912900E3A78F /* golfwang3.storyboard */,
 				D72D361F23DF98C50006EFAD /* golfwang4.storyboard */,
@@ -331,6 +339,7 @@
 				D71E657023F36ECE005E151B /* greenpokertable.jpg in Resources */,
 				D75539B023F2138C0057E260 /* blackjack.storyboard in Resources */,
 				D72D362023DF98C50006EFAD /* golfwang4.storyboard in Resources */,
+				D739ACFA240DBF99007A997C /* roulette.storyboard in Resources */,
 				D77FB2EF23D7BE0A0088B56B /* golfball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765416A23CE82D0008BD5D9 /* translate.c in Sources */,
+				D739ACF8240DBF79007A997C /* roulette.m in Sources */,
 				D765413823CE8287008BD5D9 /* translate.m in Sources */,
 				D765413223CE8287008BD5D9 /* AppDelegate.m in Sources */,
 				D7101ABE23ECC8C400F63EFB /* blackjack.m in Sources */,

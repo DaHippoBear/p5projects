@@ -39,6 +39,18 @@
                                     <segue destination="hgT-7D-10R" kind="show" id="0PW-U1-399"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXR-OW-Je8">
+                                <rect key="frame" x="102" y="548" width="211" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="ROULETTE">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CVn-Js-87J" kind="show" id="UQB-jd-V98"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -68,6 +80,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JaH-5I-t9I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="609" y="148"/>
+        </scene>
+        <!--roulette-->
+        <scene sceneID="Clh-eG-R1U">
+            <objects>
+                <viewControllerPlaceholder storyboardName="roulette" id="CVn-Js-87J" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="LQO-GJ-nmd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWs-IC-myM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="619" y="231"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZhQ-lc-woq">
