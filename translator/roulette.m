@@ -16,9 +16,22 @@ int localCoins = 0;
 int betCoins = 0;
 int redplat = 0;
 int blackplat = 0;
+int greenplat = 0;
 
 
 - (void)viewDidLoad {
+    self.spinButton.layer.cornerRadius = .5*self.spinButton.layer.frame.size.height;
+    self.spinButton.layer.masksToBounds = YES;
+    
+    self.redButton.layer.cornerRadius = .5*self.redButton.layer.frame.size.height;
+    self.redButton.layer.masksToBounds = YES;
+    
+    self.blackButton.layer.cornerRadius = .5*self.blackButton.layer.frame.size.height;
+       self.blackButton.layer.masksToBounds = YES;
+    
+    self.greenButton.layer.cornerRadius = .5*self.greenButton.layer.frame.size.height;
+       self.greenButton.layer.masksToBounds = YES;
+    
     [super viewDidLoad];
     long random;
     x = 0;
@@ -74,6 +87,16 @@ int blackplat = 0;
     balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
 }
 
+- (IBAction)greenPlate:(id)sender {
+    greenplat = greenplat + localCoins;
+    NSString *string = [NSString stringWithFormat:@"%d", greenplat];
+    [self.greenButton setTitle:string forState:UIControlStateNormal];
+    localCoins = 0;
+    balanceDisplayed = fBalance;
+    balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
+}
+
+
 
 
 
@@ -110,8 +133,11 @@ int rouletteHole, color; // 0 = red 1 = black 3 = green
             balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
             redplat = 0;
             blackplat = 0;
+            greenplat = 0;
             [self.redButton setTitle:@"" forState:UIControlStateNormal];
             [self.blackButton setTitle:@"" forState:UIControlStateNormal];
+            [self.greenButton setTitle:@"" forState:UIControlStateNormal];
+
 
         } else if (color == 1){
         infoLabel.text = [NSString stringWithFormat:@"BLACK WINS"];
@@ -120,9 +146,22 @@ int rouletteHole, color; // 0 = red 1 = black 3 = green
             balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
             redplat = 0;
             blackplat = 0;
+            greenplat = 0;
             [self.redButton setTitle:@"" forState:UIControlStateNormal];
             [self.blackButton setTitle:@"" forState:UIControlStateNormal];
-
+            [self.greenButton setTitle:@"" forState:UIControlStateNormal];
+            
+        } else if (color == 2){
+        infoLabel.text = [NSString stringWithFormat:@"GREEN WINS"];
+            fBalance = fBalance + (35 * greenplat);
+            balanceDisplayed = fBalance;
+            balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
+            redplat = 0;
+            blackplat = 0;
+            greenplat = 0;
+            [self.redButton setTitle:@"" forState:UIControlStateNormal];
+            [self.blackButton setTitle:@"" forState:UIControlStateNormal];
+            [self.greenButton setTitle:@"" forState:UIControlStateNormal];
         }
         spinButton.hidden = NO;
     }

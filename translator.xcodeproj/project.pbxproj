@@ -34,6 +34,8 @@
 		D77FB2F023D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FB2F123D7BE0A0088B56B /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = D77FB2F323D7BE0A0088B56B /* golfball.png */; };
 		D77FE55023E393530021CCEC /* clapping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D77FE54F23E393530021CCEC /* clapping.mp3 */; };
+		D7A28E8C24104CC000943B20 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A28E8B24104CBF00943B20 /* ball2.png */; };
+		D7A28E8E24104CD000943B20 /* rouletteWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A28E8D24104CCF00943B20 /* rouletteWheel.png */; };
 		D7B6766623CFC436005A1B1E /* golfwang.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B6766523CFC436005A1B1E /* golfwang.m */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +94,8 @@
 		D77534FA23D27A760024C678 /* translate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = translate.storyboard; sourceTree = "<group>"; };
 		D77FB2F223D7BE0A0088B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/golfball.png; sourceTree = "<group>"; };
 		D77FE54F23E393530021CCEC /* clapping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clapping.mp3; sourceTree = "<group>"; };
+		D7A28E8B24104CBF00943B20 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		D7A28E8D24104CCF00943B20 /* rouletteWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rouletteWheel.png; sourceTree = "<group>"; };
 		D7B6766523CFC436005A1B1E /* golfwang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfwang.m; sourceTree = "<group>"; };
 		D7B6766723CFC440005A1B1E /* golfwang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfwang.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,9 +154,9 @@
 			children = (
 				D765413023CE8287008BD5D9 /* AppDelegate.h */,
 				D765413123CE8287008BD5D9 /* AppDelegate.m */,
-				D765413323CE8287008BD5D9 /* SceneDelegate.h */,
 				D739ACF7240DBF79007A997C /* roulette.m */,
 				D739ACF6240DBF37007A997C /* roulette.h */,
+				D765413323CE8287008BD5D9 /* SceneDelegate.h */,
 				D72A116F23E8D64F0070E6EC /* blackjack.h */,
 				D7101ABD23ECC8C400F63EFB /* blackjack.m */,
 				D765413423CE8287008BD5D9 /* SceneDelegate.m */,
@@ -161,6 +165,8 @@
 				D765413623CE8287008BD5D9 /* translate.h */,
 				D765413723CE8287008BD5D9 /* translate.m */,
 				D765413C23CE8288008BD5D9 /* Assets.xcassets */,
+				D7A28E8D24104CCF00943B20 /* rouletteWheel.png */,
+				D7A28E8B24104CBF00943B20 /* ball2.png */,
 				D765414123CE8288008BD5D9 /* Info.plist */,
 				D765414223CE8288008BD5D9 /* main.m */,
 			);
@@ -326,10 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D765414023CE8288008BD5D9 /* LaunchScreen.storyboard in Resources */,
+				D7A28E8E24104CD000943B20 /* rouletteWheel.png in Resources */,
 				D727069523DB8C6D00E3A78F /* golfwang.storyboard in Resources */,
 				D77FE55023E393530021CCEC /* clapping.mp3 in Resources */,
 				D71E656E23F36EBB005E151B /* pokertop.png in Resources */,
 				D7101ABC23ECC78500F63EFB /* PNG-cards-1.3 in Resources */,
+				D7A28E8C24104CC000943B20 /* ball2.png in Resources */,
 				D727069923DB8FA100E3A78F /* golfwang2.storyboard in Resources */,
 				D765413D23CE8288008BD5D9 /* Assets.xcassets in Resources */,
 				D727069B23DB912900E3A78F /* golfwang3.storyboard in Resources */,
